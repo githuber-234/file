@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 240px;
+  background: black;
+  padding: 6px 14px;
+}
+hr {
+  color: white;
+}
+.sidebar .logo_content .logo {
+  color: white;
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+.logo_content .logo .logo_name {
+  font-size: 30px;
+}
+.logo_content .logo .logo_name2 {
+  font-size: 30px;
+}
+.sidebar #btn {
+  position: absolute;
+  color: white;
+  left: 90%;
+  top: 6px;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 500px;
+}
+.sidebar ul {
+  margin-top: 20px;
+}
+.sidebar ul li {
+  position: relative;
+  height: 35px;
+  width: 100%;
+  list-style: none;
+}
+.sidebar ul li a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.sidebar ul li a:hover {
+  color: black;
+  background: white;
+}
+.sidebar ul li a i {
+  padding-right: 10px;
+  text-align: center;
+}
+.home_page {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 240px);
+  left: 240px;
+  background-color: black;
+}
+.banner {
+  height: 60px;
+  background-color: black;
+  padding-top: 10px;
+}
+.search {
+  width: 550px;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 130px;
+}
+.search input {
+  height: 35px;
+  width: 500px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-left: 10px;
+}
+.search i {
+  padding-top: 12px;
+}
+.video {
+  background-color: rgb(54, 53, 53);
+  text-align: center;
+  list-style: none;
+  height: 170px;
+  padding-left: 280px;
+  padding-top: 20px;
+}
+.video a {
+  text-decoration: none;
+  color: white;
+}
+.video a:hover {
+  color: gray;
+}
+.one, .two, .three {
+  border: 1px solid black;
+  height: 100px;
+  width: 500px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  background-color: rgb(54, 53, 53);
+}
